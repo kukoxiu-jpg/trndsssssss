@@ -1,12 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 html[dir="rtl"] body { font-family: "Tajawal", sans-serif; }
-
-@media print {
-  .no-print { display: none !important; }
-  body { background: white; }
-}
-
+body { background: #f7f9f8; }
 .card { @apply bg-white rounded-xl shadow-sm border border-gray-100 p-4; }
+input, select, textarea { background: white; }
+@media print { .no-print { display: none !important; } body { background: white; } }

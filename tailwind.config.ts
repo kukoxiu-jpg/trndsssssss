@@ -7,11 +7,10 @@ const config: Config = {
       colors: {
         primary: { DEFAULT: "#0f7b3c", light: "#e8f5ec", dark: "#0a5c2b" },
         accent: "#d21034",
-        bg: "#f7f9f8",
-      },
-      fontFamily: { sans: ["Inter", "Tajawal", "sans-serif"] },
-    },
+        bg: "#f7f9f8"
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };
 export default config;
